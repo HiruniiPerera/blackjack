@@ -38,6 +38,7 @@ function renderGame(){
 }
 function startGame(){
     isAlive=true
+    hasJackBlack=false
     let firstCard = getRandomCard()
     let secondCard =  getRandomCard()
     cards=[firstCard,secondCard]
